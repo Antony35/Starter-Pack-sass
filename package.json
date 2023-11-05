@@ -1,0 +1,12 @@
+{
+  "name": "starter-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass sass/index.scss:public/css/style.css --style=compressed",
+    "sass-watch": "sass sass:css sass/index.scss:public/css/style.css --watch"
+  },
+  "author": "Antony Huart",
+  "license": "ISC"
+}
